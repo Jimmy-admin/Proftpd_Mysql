@@ -11,6 +11,6 @@ sed -i "s/# RequireValidShell/RequireValidShell/" $proftpd
 
 
 
-sed -i " 26 i SQLConnectInfo Ftp@localhost jimmy Jimmy*1124!" $proftpdsql
+sed -i " 26 i SQLConnectInfo Ftp@localhost user mdp $proftpdsql
 #SQLUserInfo ftpuser userid passwd uid gid homedir shell
 #SQLGroupInfo ftpgroup groupname gid members
